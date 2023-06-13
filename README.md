@@ -23,11 +23,6 @@
 <br>
 
 
-## Motivation
-<div align=center>
-<img src="assets/motivation.jpg"  width="400" height="333">
-</div>
-
 ### Update
 - 2023.06.08 Init repository.
 - 2023.06.11 Release the [arXiv](https://arxiv.org/abs/2306.06656) version.
