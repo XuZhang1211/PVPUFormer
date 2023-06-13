@@ -51,7 +51,7 @@ The integration of diverse visual prompts like clicks, scribbles, and boxes in i
 </div>
 
 <div align=center>
-<img src="assets/comparison.jpg"  width="850" height="290">
+<img src="assets/comparison.jpg"  width="700" height="290">
 </div>
 
 
