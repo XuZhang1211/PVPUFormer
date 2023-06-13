@@ -55,4 +55,4 @@ The integration of diverse visual prompts like clicks, scribbles, and boxes in i
 
 
 ### Contact
-Feel free to contact me if you have additional questions or have interests in collaboration. Please drop me an email at haoshi@zju.edu.cn. =)
+Feel free to contact me if you have additional questions or have interests in collaboration. Please drop me an email at xuzhang1211@hnu.edu.cn. =)
