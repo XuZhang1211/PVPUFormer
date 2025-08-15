@@ -1,0 +1,50 @@
+INTERACTIVE_MODELS_PATH: "./weights"
+EXPS_PATH: "./experiments"
+
+# Evaluation datasets
+GRABCUT_PATH: "./isegm_datasets/GrabCut"
+BERKELEY_PATH: "./isegm_datasets/Berkeley"
+DAVIS_PATH: "./isegm_datasets/DAVIS"
+COCO_MVAL_PATH: "./isegm_datasets/COCO_MVal"  ### exp
+BraTS_PATH: "./isegm_datasets/BraTS20" ### exp
+ssTEM_PATH: "./isegm_datasets/ssTEM/groundtruth-drosophila-vnc/stack1" ### exp
+OAIZIB_PATH: "./isegm_datasets/OAI-ZIB" ### exp
+# OAI_PATH: "./isegm_datasets/OAI"
+# HARD_PATH: "./isegm_datasets/HARD"
+
+# Train datasets
+SBD_PATH: "./isegm_datasets/SBD/dataset"
+COCO_PATH: "./isegm_datasets/MSCOCO"
+LVIS_v1_PATH: "./isegm_datasets/LVIS"
+OPENIMAGES_PATH: "./isegm_datasets/OpenImages"
+PASCALVOC_PATH: "./isegm_datasets/VOC2012" ### exp
+# ADE20K_PATH: "./isegm_datasets/ADE20K"    # download
+# ADE20K_PATH: "./isegm_datasets/ADE20K_2021_17_01"    # download
+ADE20K_PATH: "./isegm_datasets/ADE20K_2016_07_26"    # download
+
+# You can download the weights for HRNet from the repository:
+# https://github.com/HRNet/HRNet-Image-Classification
+IMAGENET_PRETRAINED_MODELS:
+  MAE_BASE: "./pretrained_models/mae_pretrain_vit_base.pth"
+  MAE_LARGE: "./pretrained_models/mae_pretrain_vit_large.pth"
+  MAE_HUGE: "./pretrained_models/mae_pretrain_vit_huge.pth"
+  SBD_VIT_BASE: "./weights/sbd_vit_base.pth"
+  SBD_VIT_LARGE: "./weights/sbd_vit_large.pth"
+  SBD_VIT_HUGE: "./weights/sbd_vit_huge.pth"
+  CL_VIT_BASE: "./weights/cocolvis_vit_base.pth"
+  CL_VIT_LARGE: "./weights/cocolvis_vit_large.pth"
+  CL_VIT_HUGE: "./weights/cocolvis_vit_huge.pth"
+  CL_QISEG_BASE: "./weights/cocolvis_qiseg_base.pth"
+  CL_PCL_QISEG_BASE: "./weights/cl_pcl_qiseg_base.pth"
+  SBD_QISEG_BASE: "./weights/comb_qiseg_base.pth"
+  GC_QISEG_BASE: "./weights/gc_qiseg_base.pth"
+
+  HRNETV2_W18_SMALL: "./weights/hrnet_w18_small_model_v2.pth"
+  HRNETV2_W32: "./weights/hrnetv2_w32_imagenet_pretrained.pth"
+  HRNETV2_W40: "./pretrained_models/hrnetv2_w40_imagenet_pretrained.pth"
+  HRNETV2_W48: "./pretrained_models/hrnetv2_w48_imagenet_pretrained.pth"
+  SEGFORMER_B0: "./weights/Segformer/mit_b0.pth"
+  SEGFORMER_B1: "./weights/Segformer/mit_b1.pth"
+  SEGFORMER_B3: "./weights/Segformer/mit_b3.pth"
+  PPLCNET_X1 : "./weights/PPLC/PP-LCNet/PPLCNet_x1_0_ssld_pretrained.pth"
+  MOBILENETV2: "./weights/mobilenetV2-15498621.pth"
