@@ -123,6 +123,7 @@ temp_*/
 *.pth
 *.py~
 *.sh~
+*.sh
 
 # srun
 *.out
