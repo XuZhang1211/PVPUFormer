@@ -36,7 +36,7 @@ The integration of diverse visual prompts like clicks, scribbles, and boxes in i
 
 
 ## Environment
-Training and evaluation environment: Python 3.9, PyTorch 1.13.1, CUDA 11.0. Run the following command to install required packages.
+Training and evaluation environment: Python 3.9, PyTorch 1.13.1, CUDA 11.7. Run the following command to install required packages.
 ```
 pip install -r requirements.txt
 ```
